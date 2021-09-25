@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: "serif", sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body{
+
+    height: 100vh;
+    background: url(foto.jpg) no-repeat center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    display: flex;
+    padding-bottom: 520px;
+
+}
+
+.info{
+
+    height: 300px;
+    text-align: center;
+    background-color: #000000;
+    padding: 50px 80px 50px 80px;
+    border-radius: 5%;
+    opacity: 0.5;
+}
+
+.contact{
+
+    display: flex;
+    color: aliceblue;
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    justify-content: center;
+    margin: 1px solid;
+    transition: ease 0.5s;
+    cursor: pointer;
+
+}
+
+.contact:hover{
+
+    color: rgb(7, 30, 73);
+}
+
+
+.profile{
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+.profile img{
+    display: block;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    
+}
+
+.socials{
+    padding-bottom: 60px;
+    font-size: 30px;
+    transition: ease 1.0s;
+
+}
+
+.socials a:hover{
+    color: yellowgreen;
+
+}
+.name{
+    justify-content: center;
+    color: aliceblue;
+    font-size: 23px;
+    padding-bottom: 10px
+}
+
